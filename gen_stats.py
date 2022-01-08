@@ -42,3 +42,4 @@ with open(file, "w") as f:
             + graph(stats["data"]["categories"][0]["percent"])
             + '  ' + str(stats["data"]["categories"][0]["percent"]) + "%"
             + '  ' + stats["data"]["categories"][0]["text"] + "\n```")
+f.close()
