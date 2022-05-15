@@ -3,13 +3,13 @@ Cyb3rCl0n3@github.com:~$ github.stats
 
 languages                                             editors
 ---------                                             -------
-Python       [#########-]  87.51%  94 hrs 35 mins     VS Code      [#####-----]  51.85%  56 hrs 2 mins
-YAML         [#---------]  6.17%   6 hrs 40 mins      PyCharmCore  [#####-----]  48.15%  52 hrs 2 mins
-Markdown     [----------]  3.32%   3 hrs 35 mins      
-Text         [----------]  1.39%   1 hr 30 mins       operating systems
-HTML         [----------]  0.51%   33 mins            -----------------
-JSON         [----------]  0.48%   30 mins            Windows      [########--]  82.91%  89 hrs 36 mins
-Other        [----------]  0.28%   18 mins            Linux        [##--------]  17.09%  18 hrs 28 mins
+Python       [#########-]  87.76%  96 hrs 45 mins     VS Code      [#####-----]  52.8%   58 hrs 12 mins
+YAML         [#---------]  6.05%   6 hrs 40 mins      PyCharmCore  [#####-----]  47.2%   52 hrs 2 mins
+Markdown     [----------]  3.25%   3 hrs 35 mins      
+Text         [----------]  1.37%   1 hr 30 mins       operating systems
+HTML         [----------]  0.5%    33 mins            -----------------
+JSON         [----------]  0.47%   30 mins            Windows      [########--]  83.24%  91 hrs 46 mins
+Other        [----------]  0.28%   18 mins            Linux        [##--------]  16.76%  18 hrs 28 mins
 ---------
-total        [##########]  100.0%  108 hrs 5 mins
+total        [##########]  100.0%  110 hrs 15 mins
 ```
