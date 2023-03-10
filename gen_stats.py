@@ -61,4 +61,4 @@ with open(file, "w") as f:
             f.write(operating_systems_text[i - 6])
         f.write("\n")
     f.write("-" * 9 + "\n")
-    f.write("total" + " " * 21 + total + "```")
+    f.write("total" + " " * 21 + total + "\n```")
