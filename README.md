@@ -12,4 +12,5 @@ CSV          [----------]  0.62%   1 hr 38 mins       -----------------
 Git Config   [----------]  0.29%   46 mins            Windows      [#########-]  88.59%        234 hrs 56 mins
 JSON         [----------]  0.24%   38 mins            Linux        [#---------]  11.41%        30 hrs 15 mins
 ---------
-total                     265 hrs 11 mins```
+total                     265 hrs 11 mins
+```
