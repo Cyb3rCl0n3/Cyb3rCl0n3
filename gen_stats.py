@@ -1,64 +1,63 @@
 from requests import get
 from json import loads
 
-response = get("https://wakatime.com/api/v1/users/Cyb3rCl0n3/stats/")
+response = get("https://wakatime.com/api/v1/users/Cyb3rCl0n3/stats")
 stats = loads(response.text)
 
 file = 'README.md'
 
 
 def graph(percent):
-    return f"[{'#' * int(round(float(percent), -1)/10)}{'-' * int(10-round(float(percent), -1)/10)}]"
+    return f"[{'#' * int(float(percent)//10)}{'-' * int(10-float(percent)//10)}]"
 
 
 languages = stats['data']['languages'][:8]
 editors = stats['data']['editors'][:3]
-operating_systems = stats['data']['operating_systems'][:2]
+os = stats['data']['operating_systems'][:2]
 total = stats['data']['categories'][0]['text']
 
-languages_name = [i['name'] for i in languages]
-languages_percent = [str(i['percent']) for i in languages]
-languages_text = [i['text'] for i in languages]
+lang_name = [i['name'] for i in languages]
+lang_per = [str(i['percent']) for i in languages]
+lang_txt = [i['text'] for i in languages]
 
-editors_name = [i['name'] for i in editors]
-editors_percent = [str(i['percent']) for i in editors]
-editors_text = [i['text'] for i in editors]
+edit_name = [i['name'] for i in editors]
+edit_per = [str(i['percent']) for i in editors]
+edit_txt = [i['text'] for i in editors]
 
-operating_systems_name = [i['name'] for i in operating_systems]
-operating_systems_percent = [str(i['percent']) for i in operating_systems]
-operating_systems_text = [i['text'] for i in operating_systems]
+os_name = [i['name'] for i in os]
+os_per = [str(i['percent']) for i in os]
+os_txt = [i['text'] for i in os]
 
-
-with open(file, "w") as f:
+with open(file, "w", encoding='utf-8') as f:
     f.write("```console\ncyb3rcl0n3@github:~$ stats \n\n")
-    f.write(f"languages{' ' * 45}editors\n")
-    f.write("-" * 9 + " " * 45 + 7 * "-" + "\n")
+    f.write(f"languages{' ' * 42}editors\n")
+    f.write("-" * 9 + " " * 42 + 7 * "-" + "\n")
     for i in range(8):
-        f.write(languages_name[i])
-        f.write(" " * (13 - len(languages_name[i])))
-        f.write(graph(languages_percent[i]) + "  ")
-        f.write(languages_percent[i] + "%")
-        f.write(" " * (7 - len(languages_percent[i])))
-        f.write(languages_text[i])
-        f.write(" " * (19 - len(languages_text[i])))
+        f.write(lang_name[i])
+        f.write(" " * (12 - len(lang_name[i])))
+        f.write(graph(lang_per[i]) + "  ")
+        f.write(lang_per[i] + "%")
+        f.write(" " * (7 - len(lang_per[i])))
+        f.write(lang_txt[i])
+        f.write(" " * (17 - len(lang_txt[i])))
         if i < 3:
-            f.write(editors_name[i])
-            f.write(" " * (14 - len(editors_name[i])))
-            f.write(graph(editors_percent[i]) + '  ')
-            f.write(editors_percent[i] + "%")
-            f.write(" " * (7 - len(editors_percent[i])))
-            f.write(editors_text[i])
+            f.write(edit_name[i])
+            f.write(" " * (13 - len(edit_name[i])))
+            f.write(graph(edit_per[i]) + '  ')
+            f.write(edit_per[i] + "%")
+            f.write(" " * (7 - len(edit_per[i])))
+            f.write(edit_txt[i])
         elif i == 4:
             f.write("operating systems")
         elif i == 5:
             f.write("-" * 17)
         elif i > 5:
-            f.write(operating_systems_name[i - 6])
-            f.write(" " * (13 - len(operating_systems_name[i - 6])))
-            f.write(graph(operating_systems_percent[i - 6]) + '  ')
-            f.write(operating_systems_percent[i - 6] + "%")
-            f.write(" " * (7 - len(operating_systems_percent[i - 6])))
-            f.write(operating_systems_text[i - 6])
+            f.write(os_name[i - 6])
+            f.write(" " * (13 - len(os_name[i - 6])))
+            f.write(graph(os_per[i - 6]) + '  ')
+            f.write(os_per[i - 6] + "%")
+            f.write(" " * (7 - len(os_per[i - 6])))
+            f.write(os_txt[i - 6])
         f.write("\n")
     f.write("-" * 9 + "\n")
     f.write("total: " + total + "\n```")
