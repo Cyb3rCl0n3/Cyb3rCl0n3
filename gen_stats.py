@@ -1,11 +1,11 @@
-from requests import get
-from json import loads
+import requests
+import json
 
-response = get("https://wakatime.com/api/v1/users/Cyb3rCl0n3/stats")
-stats = loads(response.text)
+response = requests.get("https://wakatime.com/api/v1/users/Cyb3rCl0n3/stats")
+stats = json.loads(response.text)
 
-file = 'README.md'
-
+with open('stats.json', 'w', encoding='utf-8') as f:
+    json.dump(stats, f)
 
 def graph(percent):
     return f"[{'#' * int(float(percent)//10)}{'-' * int(10-float(percent)//10)}]"
@@ -28,7 +28,7 @@ os_name = [i['name'] for i in os]
 os_per = [str(i['percent']) for i in os]
 os_txt = [i['text'] for i in os]
 
-with open(file, "w", encoding='utf-8') as f:
+with open('README.md', "w", encoding='utf-8') as f:
     f.write("```console\ncyb3rcl0n3@github:~$ stats \n\n")
     f.write(f"languages{' ' * 42}editors\n")
     f.write("-" * 9 + " " * 42 + 7 * "-" + "\n")
