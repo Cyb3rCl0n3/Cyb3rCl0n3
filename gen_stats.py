@@ -53,9 +53,9 @@ os_per = [str(i['percent']) for i in os]
 os_txt = [i['text'] for i in os]
 
 with open('README.md', "w", encoding='utf-8') as f:
-    f.write("```\ncyb3rcl0n3@github:~$ stats \n\n")
-    f.write(f"languages{' ' * 46}editors\n")
-    f.write("-" * 9 + " " * 46 + 7 * "-" + "\n")
+    f.write("```python\ncyb3rcl0n3@github:~$ stats \n\n")
+    f.write(f"languages{' ' * 48}editors\n")
+    f.write("-" * 9 + " " * 48 + 7 * "-" + "\n")
     for i in range(8):
         f.write(lang_name[i])
         f.write(" " * (12 - len(lang_name[i])))
@@ -63,7 +63,7 @@ with open('README.md', "w", encoding='utf-8') as f:
         f.write(lang_per[i] + "%")
         f.write(" " * (7 - len(lang_per[i])))
         f.write(lang_txt[i])
-        f.write(" " * (17 - len(lang_txt[i])))
+        f.write(" " * (19 - len(lang_txt[i])))
         if i < 3:
             f.write(edit_name[i])
             f.write(" " * (13 - len(edit_name[i])))
