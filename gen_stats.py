@@ -1,14 +1,38 @@
 import requests
 import json
 
-response = requests.get("https://wakatime.com/api/v1/users/Cyb3rCl0n3/stats")
-stats = json.loads(response.text)
+TEST = False
 
-with open('stats.json', 'w', encoding='utf-8') as f:
-    json.dump(stats, f)
+if TEST:
+    with open('stats.json', 'r', encoding='utf-8') as f:
+        stats = json.load(f)
+else:
+    response = requests.get("https://wakatime.com/api/v1/users/Cyb3rCl0n3/stats")
+    stats = json.loads(response.text)
+    with open('stats.json', 'w', encoding='utf-8') as f:
+        json.dump(stats, f, indent=4)
 
 def graph(percent):
-    return f"[{'#' * int(float(percent)//10)}{'-' * int(10-float(percent)//10)}]"
+    result = ["["]
+    percent = float(percent)
+    idk = int(percent) // 10
+    if percent > 10:
+        x = round(percent - int(percent / 10) * 10, 1)
+    else:
+        x = percent
+    print(percent, x)
+    result += idk * '⣿'
+    if x >= 7.5:
+        result += '⣶'
+    elif x >= 5:
+        result += '⣤'
+    elif x >= 2.5:
+        result += '⣄'
+    else:
+        idk -= 1
+    result += (9 - idk) * '⣀' + ']'
+    return "".join(result)
+
 
 
 languages = stats['data']['languages'][:8]
@@ -29,9 +53,9 @@ os_per = [str(i['percent']) for i in os]
 os_txt = [i['text'] for i in os]
 
 with open('README.md', "w", encoding='utf-8') as f:
-    f.write("```console\ncyb3rcl0n3@github:~$ stats \n\n")
-    f.write(f"languages{' ' * 42}editors\n")
-    f.write("-" * 9 + " " * 42 + 7 * "-" + "\n")
+    f.write("```\ncyb3rcl0n3@github:~$ stats \n\n")
+    f.write(f"languages{' ' * 46}editors\n")
+    f.write("-" * 9 + " " * 46 + 7 * "-" + "\n")
     for i in range(8):
         f.write(lang_name[i])
         f.write(" " * (12 - len(lang_name[i])))
