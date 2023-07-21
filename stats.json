@@ -6,10 +6,10 @@
         "timeout": 15,
         "writes_only": false,
         "holidays": 345,
-        "status": "ok",
+        "status": "pending_update",
         "human_readable_daily_average": "1 hr 35 mins",
         "human_readable_total_including_other_language": "371 hrs 37 mins",
-        "daily_average": 5709.0,
+        "daily_average": 5709,
         "languages": [
             {
                 "name": "Python",
@@ -255,7 +255,7 @@
         "days_minus_holidays": 234,
         "human_readable_daily_average_including_other_language": "1 hr 35 mins",
         "human_readable_total": "371 hrs 5 mins",
-        "is_up_to_date": true,
+        "is_up_to_date": false,
         "categories": [
             {
                 "name": "Coding",
@@ -278,7 +278,7 @@
                 "minutes": 6
             }
         ],
-        "daily_average_including_other_language": 5717.0,
+        "daily_average_including_other_language": 5717,
         "is_stuck": false,
         "is_up_to_date_pending_future": false,
         "total_seconds_including_other_language": 1337876.718735,
@@ -360,10 +360,12 @@
                 "minutes": 45
             }
         ],
+        "is_cached": true,
         "username": "Cyb3rCl0n3",
         "is_including_today": false,
         "human_readable_range": "since Dec 18 2021",
         "is_coding_activity_visible": true,
         "is_other_usage_visible": true
-    }
+    },
+    "message": "Calculating stats for this user. Check back later."
 }
