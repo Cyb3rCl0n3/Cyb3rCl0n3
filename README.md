@@ -3,14 +3,14 @@ cyb3rcl0n3@github:~$ stats
 
 languages                                                editors
 ---------                                                -------
-Python      [⣿⣿⣿⣿⣿⣿⣿⣿⣄⣀]  83.38%  316 hrs 6 mins     VS Code      [⣿⣿⣿⣿⣿⣿⣤⣀⣀⣀]  65.02%  246 hrs 28 mins
-SQL         [⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀]  7.17%   27 hrs 11 mins     PyCharmCore  [⣿⣿⣤⣀⣀⣀⣀⣀⣀⣀]  26.13%  99 hrs 4 mins
-YAML        [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  2.08%   7 hrs 52 mins      DataGrip     [⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀]  7.1%    26 hrs 55 mins
-Text        [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  1.99%   7 hrs 31 mins      
-Markdown    [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  1.37%   5 hrs 11 mins      operating systems
-HTML        [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  1.15%   4 hrs 20 mins      -----------------
-Jupyter     [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  1.02%   3 hrs 51 mins      Windows      [⣿⣿⣿⣿⣿⣿⣿⣿⣄⣀]  83.07%  314 hrs 54 mins
-CSV         [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  0.43%   1 hr 38 mins       Linux        [⣿⣤⣀⣀⣀⣀⣀⣀⣀⣀]  16.93%  64 hrs 11 mins
+Python      [⣿⣿⣿⣿⣿⣿⣿⣿⣄⣀]  83.01%  316 hrs 6 mins     VS Code      [⣿⣿⣿⣿⣿⣿⣤⣀⣀⣀]  65.17%  248 hrs 11 mins
+SQL         [⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀]  7.14%   27 hrs 11 mins     PyCharmCore  [⣿⣿⣤⣀⣀⣀⣀⣀⣀⣀]  26.02%  99 hrs 4 mins
+YAML        [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  2.07%   7 hrs 52 mins      DataGrip     [⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀]  7.07%   26 hrs 55 mins
+Text        [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  2.0%    7 hrs 36 mins      
+HTML        [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  1.4%    5 hrs 20 mins      operating systems
+Markdown    [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  1.36%   5 hrs 11 mins      -----------------
+Jupyter     [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  1.01%   3 hrs 51 mins      Windows      [⣿⣿⣿⣿⣿⣿⣿⣿⣄⣀]  83.14%  316 hrs 37 mins
+CSS         [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  0.56%   2 hrs 7 mins       Linux        [⣿⣤⣀⣀⣀⣀⣀⣀⣀⣀]  16.86%  64 hrs 11 mins
 ---------
-total: 378 hrs 59 mins
+total: 380 hrs 41 mins
 ```
