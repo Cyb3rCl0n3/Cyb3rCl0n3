@@ -11,25 +11,25 @@
         "human_readable_daily_average": "1 hr 36 mins",
         "percent_calculated": 100,
         "is_already_updating": false,
-        "days_minus_holidays": 250,
-        "daily_average_including_other_language": 5777.0,
-        "daily_average": 5769.0,
+        "days_minus_holidays": 251,
+        "daily_average_including_other_language": 5813.0,
+        "daily_average": 5805.0,
         "is_stuck": false,
         "languages": [
             {
                 "name": "Python",
-                "total_seconds": 1199691.747082,
-                "percent": 83.07,
-                "digital": "333:14",
-                "decimal": "333.23",
-                "text": "333 hrs 14 mins",
-                "hours": 333,
-                "minutes": 14
+                "total_seconds": 1214549.392735,
+                "percent": 83.24,
+                "digital": "337:22",
+                "decimal": "337.37",
+                "text": "337 hrs 22 mins",
+                "hours": 337,
+                "minutes": 22
             },
             {
                 "name": "SQL",
                 "total_seconds": 97876.560014,
-                "percent": 6.78,
+                "percent": 6.71,
                 "digital": "27:11",
                 "decimal": "27.18",
                 "text": "27 hrs 11 mins",
@@ -39,7 +39,7 @@
             {
                 "name": "YAML",
                 "total_seconds": 28345.206671,
-                "percent": 1.96,
+                "percent": 1.94,
                 "digital": "7:52",
                 "decimal": "7.87",
                 "text": "7 hrs 52 mins",
@@ -49,7 +49,7 @@
             {
                 "name": "Text",
                 "total_seconds": 28139.414649,
-                "percent": 1.95,
+                "percent": 1.93,
                 "digital": "7:48",
                 "decimal": "7.80",
                 "text": "7 hrs 48 mins",
@@ -59,7 +59,7 @@
             {
                 "name": "HTML",
                 "total_seconds": 26401.776171,
-                "percent": 1.83,
+                "percent": 1.81,
                 "digital": "7:20",
                 "decimal": "7.33",
                 "text": "7 hrs 20 mins",
@@ -69,7 +69,7 @@
             {
                 "name": "Markdown",
                 "total_seconds": 18670.095428,
-                "percent": 1.29,
+                "percent": 1.28,
                 "digital": "5:11",
                 "decimal": "5.18",
                 "text": "5 hrs 11 mins",
@@ -79,7 +79,7 @@
             {
                 "name": "Jupyter",
                 "total_seconds": 13888.541841,
-                "percent": 0.96,
+                "percent": 0.95,
                 "digital": "3:51",
                 "decimal": "3.85",
                 "text": "3 hrs 51 mins",
@@ -89,7 +89,7 @@
             {
                 "name": "CSS",
                 "total_seconds": 11137.870055,
-                "percent": 0.77,
+                "percent": 0.76,
                 "digital": "3:05",
                 "decimal": "3.08",
                 "text": "3 hrs 5 mins",
@@ -119,7 +119,7 @@
             {
                 "name": "JSON",
                 "total_seconds": 2696.460617,
-                "percent": 0.19,
+                "percent": 0.18,
                 "digital": "0:44",
                 "decimal": "0.73",
                 "text": "44 mins",
@@ -129,7 +129,7 @@
             {
                 "name": "Other",
                 "total_seconds": 2104.333232,
-                "percent": 0.15,
+                "percent": 0.14,
                 "digital": "0:35",
                 "decimal": "0.58",
                 "text": "35 mins",
@@ -267,49 +267,49 @@
                 "minutes": 0
             }
         ],
-        "total_seconds": 1442126.402497,
-        "total_seconds_including_other_language": 1444230.735729,
+        "total_seconds": 1456984.04815,
+        "total_seconds_including_other_language": 1459088.381382,
         "human_readable_daily_average_including_other_language": "1 hr 36 mins",
         "categories": [
             {
                 "name": "Coding",
-                "total_seconds": 1438002.388529,
-                "percent": 99.57,
-                "digital": "399:26",
-                "decimal": "399.43",
-                "text": "399 hrs 26 mins",
-                "hours": 399,
-                "minutes": 26
+                "total_seconds": 1448610.321735,
+                "percent": 99.28,
+                "digital": "402:23",
+                "decimal": "402.38",
+                "text": "402 hrs 23 mins",
+                "hours": 402,
+                "minutes": 23
             },
             {
                 "name": "Debugging",
-                "total_seconds": 6228.3472,
-                "percent": 0.43,
-                "digital": "1:43",
-                "decimal": "1.72",
-                "text": "1 hr 43 mins",
-                "hours": 1,
-                "minutes": 43
+                "total_seconds": 10478.059647,
+                "percent": 0.72,
+                "digital": "2:54",
+                "decimal": "2.90",
+                "text": "2 hrs 54 mins",
+                "hours": 2,
+                "minutes": 54
             }
         ],
         "is_up_to_date_pending_future": false,
-        "human_readable_total": "400 hrs 35 mins",
-        "human_readable_total_including_other_language": "401 hrs 10 mins",
+        "human_readable_total": "404 hrs 43 mins",
+        "human_readable_total_including_other_language": "405 hrs 18 mins",
         "editors": [
             {
-                "total_seconds": 966781.289896,
+                "total_seconds": 981638.935549,
                 "name": "VS Code",
-                "percent": 66.94,
-                "digital": "268:33",
-                "decimal": "268.55",
-                "text": "268 hrs 33 mins",
-                "hours": 268,
-                "minutes": 33
+                "percent": 67.28,
+                "digital": "272:40",
+                "decimal": "272.67",
+                "text": "272 hrs 40 mins",
+                "hours": 272,
+                "minutes": 40
             },
             {
                 "total_seconds": 356683.950432,
                 "name": "PyCharmCore",
-                "percent": 24.7,
+                "percent": 24.45,
                 "digital": "99:04",
                 "decimal": "99.07",
                 "text": "99 hrs 4 mins",
@@ -319,7 +319,7 @@
             {
                 "total_seconds": 96916.271579,
                 "name": "DataGrip",
-                "percent": 6.71,
+                "percent": 6.64,
                 "digital": "26:55",
                 "decimal": "26.92",
                 "text": "26 hrs 55 mins",
@@ -329,7 +329,7 @@
             {
                 "total_seconds": 13913.610841,
                 "name": "DataSpell",
-                "percent": 0.96,
+                "percent": 0.95,
                 "digital": "3:51",
                 "decimal": "3.85",
                 "text": "3 hrs 51 mins",
@@ -339,7 +339,7 @@
             {
                 "total_seconds": 9935.612981,
                 "name": "PyCharm",
-                "percent": 0.69,
+                "percent": 0.68,
                 "digital": "2:45",
                 "decimal": "2.75",
                 "text": "2 hrs 45 mins",
@@ -349,19 +349,19 @@
         ],
         "operating_systems": [
             {
-                "total_seconds": 1213148.436183,
+                "total_seconds": 1228006.081836,
                 "name": "Windows",
-                "percent": 84.0,
-                "digital": "336:59",
-                "decimal": "336.98",
-                "text": "336 hrs 59 mins",
-                "hours": 336,
-                "minutes": 59
+                "percent": 84.16,
+                "digital": "341:06",
+                "decimal": "341.10",
+                "text": "341 hrs 6 mins",
+                "hours": 341,
+                "minutes": 6
             },
             {
                 "total_seconds": 231082.299546,
                 "name": "Linux",
-                "percent": 16.0,
+                "percent": 15.84,
                 "digital": "64:11",
                 "decimal": "64.18",
                 "text": "64 hrs 11 mins",
@@ -369,7 +369,7 @@
                 "minutes": 11
             }
         ],
-        "days_including_holidays": 596,
+        "days_including_holidays": 597,
         "username": "Cyb3rCl0n3",
         "is_including_today": false,
         "human_readable_range": "since Dec 18 2021",
