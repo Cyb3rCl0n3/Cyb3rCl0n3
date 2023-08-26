@@ -5,7 +5,7 @@
         "range": "all_time",
         "timeout": 15,
         "writes_only": false,
-        "holidays": 352,
+        "holidays": 353,
         "status": "ok",
         "operating_systems": [
             {
@@ -290,7 +290,7 @@
         ],
         "total_seconds_including_other_language": 1584927.018363,
         "human_readable_total_including_other_language": "440 hrs 15 mins",
-        "days_including_holidays": 615,
+        "days_including_holidays": 616,
         "human_readable_daily_average_including_other_language": "1 hr 40 mins",
         "total_seconds": 1582822.685131,
         "percent_calculated": 100,
