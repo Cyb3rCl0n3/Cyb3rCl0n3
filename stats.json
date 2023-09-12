@@ -7,19 +7,43 @@
         "writes_only": false,
         "holidays": 367,
         "status": "ok",
-        "daily_average_including_other_language": 6010.0,
-        "days_minus_holidays": 265,
-        "human_readable_total": "441 hrs 50 mins",
+        "human_readable_total_including_other_language": "442 hrs 30 mins",
+        "human_readable_total": "441 hrs 55 mins",
+        "is_stuck": false,
+        "categories": [
+            {
+                "name": "Coding",
+                "total_seconds": 1557105.053939,
+                "percent": 97.75,
+                "digital": "432:31",
+                "decimal": "432.52",
+                "text": "432 hrs 31 mins",
+                "hours": 432,
+                "minutes": 31
+            },
+            {
+                "name": "Debugging",
+                "total_seconds": 35903.738002,
+                "percent": 2.25,
+                "digital": "9:58",
+                "decimal": "9.97",
+                "text": "9 hrs 58 mins",
+                "hours": 9,
+                "minutes": 58
+            }
+        ],
+        "percent_calculated": 100,
+        "days_including_holidays": 633,
         "editors": [
             {
-                "total_seconds": 1115309.499001,
+                "total_seconds": 1115559.346108,
                 "name": "VS Code",
-                "percent": 70.02,
-                "digital": "309:48",
-                "decimal": "309.80",
-                "text": "309 hrs 48 mins",
+                "percent": 70.03,
+                "digital": "309:52",
+                "decimal": "309.87",
+                "text": "309 hrs 52 mins",
                 "hours": 309,
-                "minutes": 48
+                "minutes": 52
             },
             {
                 "total_seconds": 356683.950432,
@@ -62,41 +86,12 @@
                 "minutes": 45
             }
         ],
-        "is_up_to_date": true,
-        "total_seconds": 1590654.611602,
-        "total_seconds_including_other_language": 1592758.944834,
-        "percent_calculated": 100,
-        "human_readable_daily_average": "1 hr 40 mins",
-        "human_readable_total_including_other_language": "442 hrs 25 mins",
-        "is_up_to_date_pending_future": false,
-        "categories": [
-            {
-                "name": "Coding",
-                "total_seconds": 1556855.206832,
-                "percent": 97.75,
-                "digital": "432:27",
-                "decimal": "432.45",
-                "text": "432 hrs 27 mins",
-                "hours": 432,
-                "minutes": 27
-            },
-            {
-                "name": "Debugging",
-                "total_seconds": 35903.738002,
-                "percent": 2.25,
-                "digital": "9:58",
-                "decimal": "9.97",
-                "text": "9 hrs 58 mins",
-                "hours": 9,
-                "minutes": 58
-            }
-        ],
-        "is_already_updating": false,
+        "total_seconds": 1590904.458709,
         "languages": [
             {
                 "name": "Python",
                 "total_seconds": 1346853.210204,
-                "percent": 84.56,
+                "percent": 84.55,
                 "digital": "374:07",
                 "decimal": "374.12",
                 "text": "374 hrs 7 mins",
@@ -106,12 +101,22 @@
             {
                 "name": "SQL",
                 "total_seconds": 97876.560014,
-                "percent": 6.15,
+                "percent": 6.14,
                 "digital": "27:11",
                 "decimal": "27.18",
                 "text": "27 hrs 11 mins",
                 "hours": 27,
                 "minutes": 11
+            },
+            {
+                "name": "Text",
+                "total_seconds": 28389.261756,
+                "percent": 1.78,
+                "digital": "7:53",
+                "decimal": "7.88",
+                "text": "7 hrs 53 mins",
+                "hours": 7,
+                "minutes": 53
             },
             {
                 "name": "YAML",
@@ -122,16 +127,6 @@
                 "text": "7 hrs 52 mins",
                 "hours": 7,
                 "minutes": 52
-            },
-            {
-                "name": "Text",
-                "total_seconds": 28139.414649,
-                "percent": 1.77,
-                "digital": "7:48",
-                "decimal": "7.80",
-                "text": "7 hrs 48 mins",
-                "hours": 7,
-                "minutes": 48
             },
             {
                 "name": "HTML",
@@ -344,20 +339,18 @@
                 "minutes": 0
             }
         ],
-        "daily_average": 6002.0,
-        "days_including_holidays": 632,
-        "human_readable_daily_average_including_other_language": "1 hr 40 mins",
-        "is_stuck": false,
+        "is_up_to_date": true,
+        "is_already_updating": false,
         "operating_systems": [
             {
-                "total_seconds": 1361676.645288,
+                "total_seconds": 1361926.492395,
                 "name": "Windows",
                 "percent": 85.49,
-                "digital": "378:14",
-                "decimal": "378.23",
-                "text": "378 hrs 14 mins",
+                "digital": "378:18",
+                "decimal": "378.30",
+                "text": "378 hrs 18 mins",
                 "hours": 378,
-                "minutes": 14
+                "minutes": 18
             },
             {
                 "total_seconds": 231082.299546,
@@ -370,6 +363,13 @@
                 "minutes": 11
             }
         ],
+        "is_up_to_date_pending_future": false,
+        "daily_average": 5981.0,
+        "total_seconds_including_other_language": 1593008.791941,
+        "human_readable_daily_average": "1 hr 39 mins",
+        "daily_average_including_other_language": 5989.0,
+        "days_minus_holidays": 266,
+        "human_readable_daily_average_including_other_language": "1 hr 39 mins",
         "username": "Cyb3rCl0n3",
         "is_including_today": false,
         "human_readable_range": "since Dec 18 2021",
