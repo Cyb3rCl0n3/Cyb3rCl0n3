@@ -5,10 +5,12 @@
         "range": "all_time",
         "timeout": 15,
         "writes_only": false,
-        "holidays": 379,
+        "holidays": 380,
         "status": "ok",
-        "daily_average_including_other_language": 5964.0,
-        "days_including_holidays": 647,
+        "days_including_holidays": 648,
+        "human_readable_daily_average_including_other_language": "1 hr 39 mins",
+        "is_already_updating": false,
+        "percent_calculated": 100,
         "editors": [
             {
                 "total_seconds": 1120989.984905,
@@ -61,7 +63,6 @@
                 "minutes": 45
             }
         ],
-        "daily_average": 5956.0,
         "operating_systems": [
             {
                 "total_seconds": 1367357.131192,
@@ -84,14 +85,9 @@
                 "minutes": 11
             }
         ],
-        "human_readable_daily_average_including_other_language": "1 hr 39 mins",
-        "human_readable_total_including_other_language": "444 hrs",
-        "human_readable_total": "443 hrs 25 mins",
+        "days_minus_holidays": 268,
         "is_up_to_date_pending_future": false,
-        "is_stuck": false,
         "total_seconds": 1596335.097506,
-        "is_already_updating": false,
-        "total_seconds_including_other_language": 1598439.430738,
         "categories": [
             {
                 "name": "Coding",
@@ -114,8 +110,13 @@
                 "minutes": 58
             }
         ],
-        "percent_calculated": 100,
-        "days_minus_holidays": 268,
+        "is_up_to_date": true,
+        "total_seconds_including_other_language": 1598439.430738,
+        "human_readable_daily_average": "1 hr 39 mins",
+        "daily_average": 5956.0,
+        "is_stuck": false,
+        "human_readable_total": "443 hrs 25 mins",
+        "daily_average_including_other_language": 5964.0,
         "languages": [
             {
                 "name": "Python",
@@ -368,8 +369,7 @@
                 "minutes": 0
             }
         ],
-        "human_readable_daily_average": "1 hr 39 mins",
-        "is_up_to_date": true,
+        "human_readable_total_including_other_language": "444 hrs",
         "username": "Cyb3rCl0n3",
         "is_including_today": false,
         "human_readable_range": "since Dec 18 2021",
