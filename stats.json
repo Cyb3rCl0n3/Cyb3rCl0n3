@@ -5,13 +5,13 @@
         "range": "all_time",
         "timeout": 15,
         "writes_only": false,
-        "holidays": 384,
+        "holidays": 385,
         "status": "ok",
-        "percent_calculated": 100,
-        "human_readable_total_including_other_language": "446 hrs 29 mins",
-        "days_including_holidays": 654,
         "human_readable_daily_average_including_other_language": "1 hr 39 mins",
         "total_seconds_including_other_language": 1607394.905208,
+        "is_up_to_date_pending_future": false,
+        "human_readable_daily_average": "1 hr 39 mins",
+        "days_minus_holidays": 270,
         "categories": [
             {
                 "name": "Coding",
@@ -34,11 +34,36 @@
                 "minutes": 58
             }
         ],
-        "days_minus_holidays": 270,
-        "is_stuck": false,
-        "daily_average": 5946.0,
+        "percent_calculated": 100,
         "total_seconds": 1605290.571976,
+        "is_stuck": false,
+        "is_up_to_date": true,
+        "operating_systems": [
+            {
+                "total_seconds": 1376312.605662,
+                "name": "Windows",
+                "percent": 85.62,
+                "digital": "382:18",
+                "decimal": "382.30",
+                "text": "382 hrs 18 mins",
+                "hours": 382,
+                "minutes": 18
+            },
+            {
+                "total_seconds": 231082.299546,
+                "name": "Linux",
+                "percent": 14.38,
+                "digital": "64:11",
+                "decimal": "64.18",
+                "text": "64 hrs 11 mins",
+                "hours": 64,
+                "minutes": 11
+            }
+        ],
         "human_readable_total": "445 hrs 54 mins",
+        "days_including_holidays": 655,
+        "is_already_updating": false,
+        "daily_average": 5946.0,
         "languages": [
             {
                 "name": "Python",
@@ -291,29 +316,6 @@
                 "minutes": 0
             }
         ],
-        "operating_systems": [
-            {
-                "total_seconds": 1376312.605662,
-                "name": "Windows",
-                "percent": 85.62,
-                "digital": "382:18",
-                "decimal": "382.30",
-                "text": "382 hrs 18 mins",
-                "hours": 382,
-                "minutes": 18
-            },
-            {
-                "total_seconds": 231082.299546,
-                "name": "Linux",
-                "percent": 14.38,
-                "digital": "64:11",
-                "decimal": "64.18",
-                "text": "64 hrs 11 mins",
-                "hours": 64,
-                "minutes": 11
-            }
-        ],
-        "human_readable_daily_average": "1 hr 39 mins",
         "editors": [
             {
                 "total_seconds": 1125627.727375,
@@ -366,10 +368,8 @@
                 "minutes": 45
             }
         ],
-        "is_up_to_date": true,
-        "is_up_to_date_pending_future": false,
-        "is_already_updating": false,
         "daily_average_including_other_language": 5953.0,
+        "human_readable_total_including_other_language": "446 hrs 29 mins",
         "username": "Cyb3rCl0n3",
         "is_including_today": false,
         "human_readable_range": "since Dec 18 2021",
