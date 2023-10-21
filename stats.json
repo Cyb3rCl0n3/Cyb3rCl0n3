@@ -5,87 +5,9 @@
         "range": "all_time",
         "timeout": 15,
         "writes_only": false,
-        "holidays": 399,
+        "holidays": 400,
         "status": "ok",
-        "human_readable_total_including_other_language": "448 hrs 42 mins",
-        "total_seconds": 1613232.341207,
-        "operating_systems": [
-            {
-                "total_seconds": 1384254.374893,
-                "name": "Windows",
-                "percent": 85.69,
-                "digital": "384:30",
-                "decimal": "384.50",
-                "text": "384 hrs 30 mins",
-                "hours": 384,
-                "minutes": 30
-            },
-            {
-                "total_seconds": 231082.299546,
-                "name": "Linux",
-                "percent": 14.31,
-                "digital": "64:11",
-                "decimal": "64.18",
-                "text": "64 hrs 11 mins",
-                "hours": 64,
-                "minutes": 11
-            }
-        ],
-        "editors": [
-            {
-                "total_seconds": 1132728.689767,
-                "name": "VS Code",
-                "percent": 70.12,
-                "digital": "314:38",
-                "decimal": "314.63",
-                "text": "314 hrs 38 mins",
-                "hours": 314,
-                "minutes": 38
-            },
-            {
-                "total_seconds": 356683.950432,
-                "name": "PyCharmCore",
-                "percent": 22.08,
-                "digital": "99:04",
-                "decimal": "99.07",
-                "text": "99 hrs 4 mins",
-                "hours": 99,
-                "minutes": 4
-            },
-            {
-                "total_seconds": 102074.810418,
-                "name": "DataGrip",
-                "percent": 6.32,
-                "digital": "28:21",
-                "decimal": "28.35",
-                "text": "28 hrs 21 mins",
-                "hours": 28,
-                "minutes": 21
-            },
-            {
-                "total_seconds": 13913.610841,
-                "name": "DataSpell",
-                "percent": 0.86,
-                "digital": "3:51",
-                "decimal": "3.85",
-                "text": "3 hrs 51 mins",
-                "hours": 3,
-                "minutes": 51
-            },
-            {
-                "total_seconds": 9935.612981,
-                "name": "PyCharm",
-                "percent": 0.62,
-                "digital": "2:45",
-                "decimal": "2.75",
-                "text": "2 hrs 45 mins",
-                "hours": 2,
-                "minutes": 45
-            }
-        ],
-        "human_readable_daily_average_including_other_language": "1 hr 38 mins",
-        "human_readable_total": "448 hrs 7 mins",
-        "is_up_to_date_pending_future": false,
+        "percent_calculated": 100,
         "languages": [
             {
                 "name": "Python",
@@ -338,14 +260,94 @@
                 "minutes": 0
             }
         ],
-        "daily_average_including_other_language": 5939.0,
+        "is_up_to_date_pending_future": false,
+        "editors": [
+            {
+                "total_seconds": 1132728.689767,
+                "name": "VS Code",
+                "percent": 70.12,
+                "digital": "314:38",
+                "decimal": "314.63",
+                "text": "314 hrs 38 mins",
+                "hours": 314,
+                "minutes": 38
+            },
+            {
+                "total_seconds": 356683.950432,
+                "name": "PyCharmCore",
+                "percent": 22.08,
+                "digital": "99:04",
+                "decimal": "99.07",
+                "text": "99 hrs 4 mins",
+                "hours": 99,
+                "minutes": 4
+            },
+            {
+                "total_seconds": 102074.810418,
+                "name": "DataGrip",
+                "percent": 6.32,
+                "digital": "28:21",
+                "decimal": "28.35",
+                "text": "28 hrs 21 mins",
+                "hours": 28,
+                "minutes": 21
+            },
+            {
+                "total_seconds": 13913.610841,
+                "name": "DataSpell",
+                "percent": 0.86,
+                "digital": "3:51",
+                "decimal": "3.85",
+                "text": "3 hrs 51 mins",
+                "hours": 3,
+                "minutes": 51
+            },
+            {
+                "total_seconds": 9935.612981,
+                "name": "PyCharm",
+                "percent": 0.62,
+                "digital": "2:45",
+                "decimal": "2.75",
+                "text": "2 hrs 45 mins",
+                "hours": 2,
+                "minutes": 45
+            }
+        ],
+        "human_readable_total": "448 hrs 7 mins",
+        "operating_systems": [
+            {
+                "total_seconds": 1384254.374893,
+                "name": "Windows",
+                "percent": 85.69,
+                "digital": "384:30",
+                "decimal": "384.50",
+                "text": "384 hrs 30 mins",
+                "hours": 384,
+                "minutes": 30
+            },
+            {
+                "total_seconds": 231082.299546,
+                "name": "Linux",
+                "percent": 14.31,
+                "digital": "64:11",
+                "decimal": "64.18",
+                "text": "64 hrs 11 mins",
+                "hours": 64,
+                "minutes": 11
+            }
+        ],
+        "human_readable_daily_average_including_other_language": "1 hr 38 mins",
+        "human_readable_daily_average": "1 hr 38 mins",
+        "days_including_holidays": 672,
         "days_minus_holidays": 272,
-        "daily_average": 5931.0,
-        "is_already_updating": false,
+        "daily_average_including_other_language": 5939.0,
         "total_seconds_including_other_language": 1615336.674439,
         "is_stuck": false,
-        "days_including_holidays": 671,
-        "percent_calculated": 100,
+        "is_up_to_date": true,
+        "daily_average": 5931.0,
+        "total_seconds": 1613232.341207,
+        "human_readable_total_including_other_language": "448 hrs 42 mins",
+        "is_already_updating": false,
         "categories": [
             {
                 "name": "Coding",
@@ -368,8 +370,6 @@
                 "minutes": 58
             }
         ],
-        "human_readable_daily_average": "1 hr 38 mins",
-        "is_up_to_date": true,
         "username": "Cyb3rCl0n3",
         "is_including_today": false,
         "human_readable_range": "since Dec 18 2021",
