@@ -5,13 +5,8 @@
         "range": "all_time",
         "timeout": 15,
         "writes_only": false,
-        "holidays": 405,
+        "holidays": 406,
         "status": "pending_update",
-        "is_up_to_date_pending_future": false,
-        "days_minus_holidays": 277,
-        "daily_average_including_other_language": 5992,
-        "daily_average": 5984,
-        "percent_calculated": 100,
         "languages": [
             {
                 "name": "Python",
@@ -264,15 +259,7 @@
                 "minutes": 0
             }
         ],
-        "total_seconds": 1657600.450791,
-        "days_including_holidays": 682,
-        "total_seconds_including_other_language": 1659846.526345,
-        "is_already_updating": false,
         "human_readable_daily_average": "1 hr 39 mins",
-        "is_up_to_date": false,
-        "human_readable_daily_average_including_other_language": "1 hr 39 mins",
-        "human_readable_total": "460 hrs 26 mins",
-        "is_stuck": false,
         "editors": [
             {
                 "total_seconds": 1163116.706673,
@@ -325,6 +312,13 @@
                 "minutes": 45
             }
         ],
+        "days_minus_holidays": 277,
+        "human_readable_total_including_other_language": "461 hrs 4 mins",
+        "human_readable_total": "460 hrs 26 mins",
+        "is_already_updating": false,
+        "days_including_holidays": 683,
+        "is_up_to_date_pending_future": false,
+        "percent_calculated": 100,
         "categories": [
             {
                 "name": "Coding",
@@ -347,7 +341,12 @@
                 "minutes": 58
             }
         ],
-        "human_readable_total_including_other_language": "461 hrs 4 mins",
+        "total_seconds": 1657600.450791,
+        "total_seconds_including_other_language": 1659846.526345,
+        "is_up_to_date": false,
+        "daily_average_including_other_language": 5992,
+        "human_readable_daily_average_including_other_language": "1 hr 39 mins",
+        "daily_average": 5984,
         "operating_systems": [
             {
                 "total_seconds": 1426607.988657,
@@ -370,6 +369,7 @@
                 "minutes": 47
             }
         ],
+        "is_stuck": false,
         "is_cached": true,
         "username": "Cyb3rCl0n3",
         "is_including_today": false,
