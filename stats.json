@@ -5,16 +5,8 @@
         "range": "all_time",
         "timeout": 15,
         "writes_only": false,
-        "holidays": 410,
+        "holidays": 411,
         "status": "pending_update",
-        "is_already_updating": false,
-        "percent_calculated": 100,
-        "days_minus_holidays": 278,
-        "is_stuck": false,
-        "human_readable_daily_average_including_other_language": "1 hr 39 mins",
-        "human_readable_total_including_other_language": "461 hrs 23 mins",
-        "human_readable_total": "460 hrs 44 mins",
-        "is_up_to_date": false,
         "operating_systems": [
             {
                 "total_seconds": 1427759.39381,
@@ -37,7 +29,7 @@
                 "minutes": 47
             }
         ],
-        "daily_average_including_other_language": 5975,
+        "total_seconds": 1658693.054475,
         "languages": [
             {
                 "name": "Python",
@@ -290,7 +282,15 @@
                 "minutes": 0
             }
         ],
+        "human_readable_total": "460 hrs 44 mins",
+        "human_readable_daily_average": "1 hr 39 mins",
+        "days_including_holidays": 689,
+        "daily_average_including_other_language": 5975,
+        "is_already_updating": false,
         "daily_average": 5967,
+        "human_readable_daily_average_including_other_language": "1 hr 39 mins",
+        "is_up_to_date_pending_future": false,
+        "percent_calculated": 100,
         "categories": [
             {
                 "name": "Coding",
@@ -313,10 +313,6 @@
                 "minutes": 58
             }
         ],
-        "total_seconds_including_other_language": 1660997.931498,
-        "days_including_holidays": 688,
-        "total_seconds": 1658693.054475,
-        "human_readable_daily_average": "1 hr 39 mins",
         "editors": [
             {
                 "total_seconds": 1164268.111826,
@@ -369,7 +365,11 @@
                 "minutes": 45
             }
         ],
-        "is_up_to_date_pending_future": false,
+        "human_readable_total_including_other_language": "461 hrs 23 mins",
+        "days_minus_holidays": 278,
+        "total_seconds_including_other_language": 1660997.931498,
+        "is_up_to_date": false,
+        "is_stuck": false,
         "is_cached": true,
         "username": "Cyb3rCl0n3",
         "is_including_today": false,
