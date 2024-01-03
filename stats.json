@@ -5,12 +5,9 @@
         "range": "all_time",
         "timeout": 15,
         "writes_only": false,
-        "holidays": 446,
-        "status": "pending_update",
+        "holidays": 448,
+        "status": "ok",
         "percent_calculated": 100,
-        "total_seconds": 1767778.445263,
-        "is_up_to_date_pending_future": false,
-        "is_up_to_date": false,
         "languages": [
             {
                 "name": "Python",
@@ -273,8 +270,45 @@
                 "minutes": 0
             }
         ],
+        "operating_systems": [
+            {
+                "total_seconds": 1487019.950413,
+                "name": "Windows",
+                "percent": 84.0,
+                "digital": "413:03",
+                "decimal": "413.05",
+                "text": "413 hrs 3 mins",
+                "hours": 413,
+                "minutes": 3
+            },
+            {
+                "total_seconds": 233238.537688,
+                "name": "Linux",
+                "percent": 13.18,
+                "digital": "64:47",
+                "decimal": "64.78",
+                "text": "64 hrs 47 mins",
+                "hours": 64,
+                "minutes": 47
+            },
+            {
+                "total_seconds": 50033.173019,
+                "name": "WSL",
+                "percent": 2.83,
+                "digital": "13:53",
+                "decimal": "13.88",
+                "text": "13 hrs 53 mins",
+                "hours": 13,
+                "minutes": 53
+            }
+        ],
+        "daily_average_including_other_language": 5941.0,
+        "daily_average": 5932.0,
+        "is_already_updating": false,
+        "is_up_to_date": true,
+        "total_seconds": 1767778.445263,
         "days_minus_holidays": 298,
-        "human_readable_daily_average": "1 hr 38 mins",
+        "total_seconds_including_other_language": 1770291.66112,
         "categories": [
             {
                 "name": "Coding",
@@ -307,8 +341,11 @@
                 "minutes": 0
             }
         ],
+        "human_readable_daily_average_including_other_language": "1 hr 39 mins",
+        "human_readable_total": "491 hrs 2 mins",
+        "is_up_to_date_pending_future": false,
+        "human_readable_daily_average": "1 hr 38 mins",
         "human_readable_total_including_other_language": "491 hrs 44 mins",
-        "days_including_holidays": 744,
         "is_stuck": false,
         "editors": [
             {
@@ -362,50 +399,12 @@
                 "minutes": 45
             }
         ],
-        "human_readable_daily_average_including_other_language": "1 hr 39 mins",
-        "is_already_updating": false,
-        "total_seconds_including_other_language": 1770291.66112,
-        "daily_average_including_other_language": 5941,
-        "daily_average": 5932,
-        "operating_systems": [
-            {
-                "total_seconds": 1487019.950413,
-                "name": "Windows",
-                "percent": 84.0,
-                "digital": "413:03",
-                "decimal": "413.05",
-                "text": "413 hrs 3 mins",
-                "hours": 413,
-                "minutes": 3
-            },
-            {
-                "total_seconds": 233238.537688,
-                "name": "Linux",
-                "percent": 13.18,
-                "digital": "64:47",
-                "decimal": "64.78",
-                "text": "64 hrs 47 mins",
-                "hours": 64,
-                "minutes": 47
-            },
-            {
-                "total_seconds": 50033.173019,
-                "name": "WSL",
-                "percent": 2.83,
-                "digital": "13:53",
-                "decimal": "13.88",
-                "text": "13 hrs 53 mins",
-                "hours": 13,
-                "minutes": 53
-            }
-        ],
-        "human_readable_total": "491 hrs 2 mins",
+        "days_including_holidays": 746,
         "is_cached": true,
         "username": "Cyb3rCl0n3",
         "is_including_today": false,
         "human_readable_range": "since Dec 18 2021",
         "is_coding_activity_visible": true,
         "is_other_usage_visible": true
-    },
-    "message": "Calculating stats for this user. Check back later."
+    }
 }
