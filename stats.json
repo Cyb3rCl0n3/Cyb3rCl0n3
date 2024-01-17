@@ -6,10 +6,10 @@
         "timeout": 15,
         "writes_only": false,
         "holidays": 458,
-        "status": "ok",
-        "daily_average_including_other_language": 5942.0,
+        "status": "pending_update",
+        "daily_average_including_other_language": 5942,
         "total_seconds": 1785880.407263,
-        "is_up_to_date": true,
+        "is_up_to_date": false,
         "is_stuck": false,
         "human_readable_total": "496 hrs 4 mins",
         "editors": [
@@ -395,7 +395,7 @@
                 "minutes": 53
             }
         ],
-        "daily_average": 5933.0,
+        "daily_average": 5933,
         "human_readable_daily_average": "1 hr 38 mins",
         "human_readable_daily_average_including_other_language": "1 hr 39 mins",
         "total_seconds_including_other_language": 1788393.62312,
@@ -406,5 +406,6 @@
         "human_readable_range": "since Dec 18 2021",
         "is_coding_activity_visible": true,
         "is_other_usage_visible": true
-    }
+    },
+    "message": "Calculating stats for this user. Check back later."
 }
