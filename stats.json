@@ -5,12 +5,105 @@
         "range": "all_time",
         "timeout": 15,
         "writes_only": false,
-        "holidays": 478,
+        "holidays": 479,
         "status": "pending_update",
-        "is_already_updating": false,
         "human_readable_daily_average": "1 hr 38 mins",
+        "daily_average": 5900,
+        "categories": [
+            {
+                "name": "Coding",
+                "total_seconds": 1760117.410655,
+                "percent": 97.99,
+                "digital": "488:55",
+                "decimal": "488.92",
+                "text": "488 hrs 55 mins",
+                "hours": 488,
+                "minutes": 55
+            },
+            {
+                "name": "Debugging",
+                "total_seconds": 36122.270972,
+                "percent": 2.01,
+                "digital": "10:02",
+                "decimal": "10.03",
+                "text": "10 hrs 2 mins",
+                "hours": 10,
+                "minutes": 2
+            },
+            {
+                "name": "Building",
+                "total_seconds": 9.38762,
+                "percent": 0.0,
+                "digital": "0:00",
+                "decimal": "0.00",
+                "text": "0 secs",
+                "hours": 0,
+                "minutes": 0
+            }
+        ],
+        "daily_average_including_other_language": 5909,
         "human_readable_total": "498 hrs 15 mins",
+        "is_up_to_date_pending_future": false,
+        "editors": [
+            {
+                "total_seconds": 1240243.361642,
+                "name": "VS Code",
+                "percent": 69.05,
+                "digital": "344:30",
+                "decimal": "344.50",
+                "text": "344 hrs 30 mins",
+                "hours": 344,
+                "minutes": 30
+            },
+            {
+                "total_seconds": 356683.950432,
+                "name": "PyCharmCore",
+                "percent": 19.86,
+                "digital": "99:04",
+                "decimal": "99.07",
+                "text": "99 hrs 4 mins",
+                "hours": 99,
+                "minutes": 4
+            },
+            {
+                "total_seconds": 175472.533351,
+                "name": "DataGrip",
+                "percent": 9.77,
+                "digital": "48:44",
+                "decimal": "48.73",
+                "text": "48 hrs 44 mins",
+                "hours": 48,
+                "minutes": 44
+            },
+            {
+                "total_seconds": 13913.610841,
+                "name": "DataSpell",
+                "percent": 0.77,
+                "digital": "3:51",
+                "decimal": "3.85",
+                "text": "3 hrs 51 mins",
+                "hours": 3,
+                "minutes": 51
+            },
+            {
+                "total_seconds": 9935.612981,
+                "name": "PyCharm",
+                "percent": 0.55,
+                "digital": "2:45",
+                "decimal": "2.75",
+                "text": "2 hrs 45 mins",
+                "hours": 2,
+                "minutes": 45
+            }
+        ],
         "human_readable_daily_average_including_other_language": "1 hr 38 mins",
+        "human_readable_total_including_other_language": "498 hrs 57 mins",
+        "total_seconds": 1793735.85339,
+        "is_stuck": false,
+        "is_up_to_date": false,
+        "days_including_holidays": 783,
+        "days_minus_holidays": 304,
+        "is_already_updating": false,
         "languages": [
             {
                 "name": "Python",
@@ -273,98 +366,6 @@
                 "minutes": 0
             }
         ],
-        "percent_calculated": 100,
-        "editors": [
-            {
-                "total_seconds": 1240243.361642,
-                "name": "VS Code",
-                "percent": 69.05,
-                "digital": "344:30",
-                "decimal": "344.50",
-                "text": "344 hrs 30 mins",
-                "hours": 344,
-                "minutes": 30
-            },
-            {
-                "total_seconds": 356683.950432,
-                "name": "PyCharmCore",
-                "percent": 19.86,
-                "digital": "99:04",
-                "decimal": "99.07",
-                "text": "99 hrs 4 mins",
-                "hours": 99,
-                "minutes": 4
-            },
-            {
-                "total_seconds": 175472.533351,
-                "name": "DataGrip",
-                "percent": 9.77,
-                "digital": "48:44",
-                "decimal": "48.73",
-                "text": "48 hrs 44 mins",
-                "hours": 48,
-                "minutes": 44
-            },
-            {
-                "total_seconds": 13913.610841,
-                "name": "DataSpell",
-                "percent": 0.77,
-                "digital": "3:51",
-                "decimal": "3.85",
-                "text": "3 hrs 51 mins",
-                "hours": 3,
-                "minutes": 51
-            },
-            {
-                "total_seconds": 9935.612981,
-                "name": "PyCharm",
-                "percent": 0.55,
-                "digital": "2:45",
-                "decimal": "2.75",
-                "text": "2 hrs 45 mins",
-                "hours": 2,
-                "minutes": 45
-            }
-        ],
-        "daily_average": 5900,
-        "human_readable_total_including_other_language": "498 hrs 57 mins",
-        "daily_average_including_other_language": 5909,
-        "days_including_holidays": 782,
-        "days_minus_holidays": 304,
-        "is_up_to_date": false,
-        "categories": [
-            {
-                "name": "Coding",
-                "total_seconds": 1760117.410655,
-                "percent": 97.99,
-                "digital": "488:55",
-                "decimal": "488.92",
-                "text": "488 hrs 55 mins",
-                "hours": 488,
-                "minutes": 55
-            },
-            {
-                "name": "Debugging",
-                "total_seconds": 36122.270972,
-                "percent": 2.01,
-                "digital": "10:02",
-                "decimal": "10.03",
-                "text": "10 hrs 2 mins",
-                "hours": 10,
-                "minutes": 2
-            },
-            {
-                "name": "Building",
-                "total_seconds": 9.38762,
-                "percent": 0.0,
-                "digital": "0:00",
-                "decimal": "0.00",
-                "text": "0 secs",
-                "hours": 0,
-                "minutes": 0
-            }
-        ],
-        "total_seconds_including_other_language": 1796249.069247,
         "operating_systems": [
             {
                 "total_seconds": 1508607.727413,
@@ -397,9 +398,8 @@
                 "minutes": 6
             }
         ],
-        "is_stuck": false,
-        "total_seconds": 1793735.85339,
-        "is_up_to_date_pending_future": false,
+        "percent_calculated": 100,
+        "total_seconds_including_other_language": 1796249.069247,
         "is_cached": true,
         "username": "Cyb3rCl0n3",
         "is_including_today": false,
