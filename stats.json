@@ -6,8 +6,8 @@
         "timeout": 15,
         "writes_only": false,
         "holidays": 487,
-        "status": "ok",
-        "daily_average_including_other_language": 5889.0,
+        "status": "pending_update",
+        "daily_average_including_other_language": 5889,
         "total_seconds_including_other_language": 1796251.524247,
         "total_seconds": 1793738.30839,
         "human_readable_total": "498 hrs 15 mins",
@@ -45,7 +45,7 @@
         ],
         "days_minus_holidays": 305,
         "is_already_updating": false,
-        "is_up_to_date": true,
+        "is_up_to_date": false,
         "percent_calculated": 100,
         "languages": [
             {
@@ -399,12 +399,13 @@
         "human_readable_total_including_other_language": "498 hrs 57 mins",
         "is_up_to_date_pending_future": false,
         "is_stuck": false,
-        "daily_average": 5881.0,
+        "daily_average": 5881,
         "is_cached": true,
         "username": "Cyb3rCl0n3",
         "is_including_today": false,
         "human_readable_range": "since Dec 18 2021",
         "is_coding_activity_visible": true,
         "is_other_usage_visible": true
-    }
+    },
+    "message": "Calculating stats for this user. Check back later."
 }
