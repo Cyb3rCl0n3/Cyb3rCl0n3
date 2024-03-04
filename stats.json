@@ -5,10 +5,10 @@
         "range": "all_time",
         "timeout": 15,
         "writes_only": false,
-        "holidays": 497,
-        "status": "pending_update",
-        "total_seconds_including_other_language": 1808840.312596,
-        "human_readable_daily_average_including_other_language": "1 hr 37 mins",
+        "holidays": 499,
+        "status": "ok",
+        "days_including_holidays": 807,
+        "percent_calculated": 100,
         "operating_systems": [
             {
                 "total_seconds": 1520897.970082,
@@ -41,45 +41,10 @@
                 "minutes": 11
             }
         ],
-        "human_readable_total": "501 hrs 44 mins",
-        "is_up_to_date_pending_future": false,
-        "categories": [
-            {
-                "name": "Coding",
-                "total_seconds": 1772229.535903,
-                "percent": 97.98,
-                "digital": "492:17",
-                "decimal": "492.28",
-                "text": "492 hrs 17 mins",
-                "hours": 492,
-                "minutes": 17
-            },
-            {
-                "name": "Debugging",
-                "total_seconds": 36601.389073,
-                "percent": 2.02,
-                "digital": "10:10",
-                "decimal": "10.17",
-                "text": "10 hrs 10 mins",
-                "hours": 10,
-                "minutes": 10
-            },
-            {
-                "name": "Building",
-                "total_seconds": 9.38762,
-                "percent": 0.0,
-                "digital": "0:00",
-                "decimal": "0.00",
-                "text": "0 secs",
-                "hours": 0,
-                "minutes": 0
-            }
-        ],
-        "percent_calculated": 100,
-        "total_seconds": 1806281.688543,
+        "human_readable_daily_average_including_other_language": "1 hr 37 mins",
         "is_already_updating": false,
-        "daily_average": 5865,
-        "days_including_holidays": 805,
+        "is_up_to_date_pending_future": false,
+        "days_minus_holidays": 308,
         "editors": [
             {
                 "total_seconds": 1252780.789507,
@@ -132,10 +97,47 @@
                 "minutes": 45
             }
         ],
+        "total_seconds_including_other_language": 1808840.312596,
         "is_stuck": false,
-        "is_up_to_date": false,
         "human_readable_daily_average": "1 hr 37 mins",
-        "daily_average_including_other_language": 5873,
+        "human_readable_total": "501 hrs 44 mins",
+        "total_seconds": 1806281.688543,
+        "daily_average_including_other_language": 5873.0,
+        "is_up_to_date": true,
+        "categories": [
+            {
+                "name": "Coding",
+                "total_seconds": 1772229.535903,
+                "percent": 97.98,
+                "digital": "492:17",
+                "decimal": "492.28",
+                "text": "492 hrs 17 mins",
+                "hours": 492,
+                "minutes": 17
+            },
+            {
+                "name": "Debugging",
+                "total_seconds": 36601.389073,
+                "percent": 2.02,
+                "digital": "10:10",
+                "decimal": "10.17",
+                "text": "10 hrs 10 mins",
+                "hours": 10,
+                "minutes": 10
+            },
+            {
+                "name": "Building",
+                "total_seconds": 9.38762,
+                "percent": 0.0,
+                "digital": "0:00",
+                "decimal": "0.00",
+                "text": "0 secs",
+                "hours": 0,
+                "minutes": 0
+            }
+        ],
+        "human_readable_total_including_other_language": "502 hrs 27 mins",
+        "daily_average": 5865.0,
         "languages": [
             {
                 "name": "Python",
@@ -398,14 +400,11 @@
                 "minutes": 0
             }
         ],
-        "human_readable_total_including_other_language": "502 hrs 27 mins",
-        "days_minus_holidays": 308,
         "is_cached": true,
         "username": "Cyb3rCl0n3",
         "is_including_today": false,
         "human_readable_range": "since Dec 18 2021",
         "is_coding_activity_visible": true,
         "is_other_usage_visible": true
-    },
-    "message": "Calculating stats for this user. Check back later."
+    }
 }
