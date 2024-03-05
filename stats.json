@@ -6,7 +6,7 @@
         "timeout": 15,
         "writes_only": false,
         "holidays": 499,
-        "status": "ok",
+        "status": "pending_update",
         "days_including_holidays": 807,
         "percent_calculated": 100,
         "operating_systems": [
@@ -102,8 +102,8 @@
         "human_readable_daily_average": "1 hr 37 mins",
         "human_readable_total": "501 hrs 44 mins",
         "total_seconds": 1806281.688543,
-        "daily_average_including_other_language": 5873.0,
-        "is_up_to_date": true,
+        "daily_average_including_other_language": 5873,
+        "is_up_to_date": false,
         "categories": [
             {
                 "name": "Coding",
@@ -137,7 +137,7 @@
             }
         ],
         "human_readable_total_including_other_language": "502 hrs 27 mins",
-        "daily_average": 5865.0,
+        "daily_average": 5865,
         "languages": [
             {
                 "name": "Python",
@@ -406,5 +406,6 @@
         "human_readable_range": "since Dec 18 2021",
         "is_coding_activity_visible": true,
         "is_other_usage_visible": true
-    }
+    },
+    "message": "Calculating stats for this user. Check back later."
 }
