@@ -2,15 +2,16 @@ import requests
 import json
 
 TEST = False
+excluded = ["JSON", "CSV", "Git Config", "GitIgnore file", "Git", "Text", "Jupyter", "Markdown", "Other"]
 
 if TEST:
-    with open('stats.json', 'r', encoding='utf-8') as f:
+    with open('test/stats.json', 'r', encoding='utf-8') as f:
         stats = json.load(f)
 else:
     response = requests.get("https://wakatime.com/api/v1/users/Cyb3rCl0n3/stats")
     stats = json.loads(response.text)
-    with open('stats.json', 'w', encoding='utf-8') as f:
-        json.dump(stats, f, indent=4)
+    # with open('stats.json', 'w', encoding='utf-8') as f:
+    #     json.dump(stats, f, indent=4)
 
 def graph(percent):
     result = ["["]
@@ -20,7 +21,7 @@ def graph(percent):
         x = round(percent - int(percent / 10) * 10, 1)
     else:
         x = percent
-    print(percent, x)
+
     result += idk * '⣿'
     if x >= 7.5:
         result += '⣶'
@@ -33,9 +34,10 @@ def graph(percent):
     result += (9 - idk) * '⣀' + ']'
     return "".join(result)
 
+def filter(content, excluded):
+    return [i for i in content if i['name'] not in excluded]            
 
-
-languages = stats['data']['languages'][:8]
+languages = filter(stats['data']['languages'], excluded)[:8]
 editors = stats['data']['editors'][:3]
 os = stats['data']['operating_systems'][:2]
 total = stats['data']['categories'][0]['text']
