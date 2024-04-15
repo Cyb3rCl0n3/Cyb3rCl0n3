@@ -3,7 +3,7 @@ cyb3rcl0n3@github:~$ stats
 
 languages                                                editors
 ---------                                                -------
-Python      [⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀]  81.65%  425 hrs 57 mins    VS Code      [⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀]  70.38%  367 hrs 9 mins
+Python      [⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀]  81.65%  425 hrs 58 mins    VS Code      [⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀]  70.38%  367 hrs 9 mins
 SQL         [⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀]  9.41%   49 hrs 6 mins      PyCharmCore  [⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀]  18.99%  99 hrs 4 mins
 HTML        [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  1.57%   8 hrs 10 mins      DataGrip     [⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀]  9.36%   48 hrs 50 mins
 YAML        [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  1.52%   7 hrs 55 mins      
