@@ -9,7 +9,7 @@ C#          [⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀]  8.89%   53 hrs 26 mins     DataGri
 HTML        [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  1.36%   8 hrs 10 mins      
 YAML        [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  1.32%   7 hrs 55 mins      operating systems
 CSS         [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  0.68%   4 hrs 6 mins       -----------------
-Binary      [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  0.65%   3 hrs 53 mins      Windows      [⣿⣿⣿⣿⣿⣿⣿⣿⣄⣀]  84.93%  510 hrs 16 mins
+Binary      [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  0.65%   3 hrs 53 mins      Windows      [⣿⣿⣿⣿⣿⣿⣿⣿⣄⣀]  84.94%  510 hrs 17 mins
 C           [⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀]  0.18%   1 hr 4 mins        Linux        [⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀]  10.78%  64 hrs 47 mins
 ---------
 total: 582 hrs
